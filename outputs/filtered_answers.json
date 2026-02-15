@@ -1,0 +1,67 @@
+[
+    {
+        "answer": "D",
+        "reasoning": "Ravi's mother's only son is Ravi himself. The woman is his sister since she is the daughter of Ravi's mother's son (Ravi), making her Ravi's niece."
+    },
+    {
+        "answer": "D",
+        "reasoning": "The sequence follows an alphabetical pattern where letters progress in order, skipping some letters. The correct continuation should follow the same progression. Option D repeats 'Z5A6B7C8', which doesn't align with the original sequence's logical flow."
+    },
+    {
+        "answer": "A",
+        "reasoning": "F is the grandmother of A since she is the parent of E, who is the father of D, and D is the father of C, who is the sister of B, and B is the brother of A."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From 'All A are B' and 'No C is B', we can infer that no C is A. Since some D are A, those D cannot be C. Thus, conclusion I holds. However, there's no logical link between D and C in conclusion II."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ravi's mother's brother's only daughter is Ravi's aunt. This aunt is the sister-in-law of Ravi's father's only son, meaning the son is Ravi's cousin. Thus, Ravi is the nephew of his father's only son."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From 'All A are B' and 'Some B are C', we can't conclude 'Some A are D' directly because there's no link between A and C. However, combining 'Some B are C' and 'All C are D' gives 'Some B are D'. Since all A are B, it implies some A must also be D through transitive relationships."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The person opposite E must be determined by analyzing seat positions based on given clues. Since E is two seats to the right of Q, and Q is opposite A, we find that the person opposite E is C."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Given that G is immediately clockwise of H, and B is two seats left of D, placing D opposite to someone leads us to find that the person opposite D must be F. Since E's opposite is F, then F is opposite E, making D's opposite F."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Conclusion I ('No S is N') cannot be derived because there's no direct link between S and N in the premises. Similarly, Conclusion II ('Some N are P') contradicts Statement II ('No P is M'), making it invalid. Neither conclusion logically follows."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From 'All A are B' and 'Some B are C', we can't directly infer anything about A and C. However, since 'No C is D', combining it with 'All A are B' implies some A may overlap with C, leading to 'Some A are not D'. Also, 'Some B are C' and 'No C is D' imply 'Some B are not D'. Thus, both conclusions hold."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Ravi's father has only one son (Ravi himself), so the statement refers to Ravi's brother. The mother's only daughter must be Ravi's sister. Thus, Ravi is the nephew of his mother's only daughter."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi's father's only sister is his aunt. The only son of that aunt would be Ravi's uncle. The daughter of Ravi's uncle is his cousin."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Ravi's mother's only sibling is his aunt. That sibling's only child is Ravi's cousin. However, since the woman is described as the daughter of that child, she would be Ravi's niece."
+    },
+    {
+        "answer": "D",
+        "reasoning": "By mapping positions around the circle, we find that K's position is determined by the sequence leading up to it. Since K is between J and A, and considering all relative placements, D ends up directly opposite K."
+    },
+    {
+        "answer": "D",
+        "reasoning": "None of the conclusions logically follow from the premises. Conclusion I assumes an inverse relationship between A and D that isn't supported by the given statements. Conclusion II incorrectly asserts'some B are not D' based on the provided information which states all C are D but doesn't address B's relation to D directly."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "E is the parent of D, who is the father of C, making E the grandfather of A through D's lineage."
+    }
+]

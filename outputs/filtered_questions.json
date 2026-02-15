@@ -1,0 +1,206 @@
+[
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'The woman in the photo is the daughter of my mother\u2019s only son, who is the brother of my father\u2019s mother.\u2019 How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Sister",
+            "C) C) Aunt",
+            "D) D) Niece"
+        ],
+        "answer": "A",
+        "explanation": "Ravi's mother's only son is Ravi himself. His father's mother is Ravi's grandmother. The woman is the daughter of Ravi's mother's son (Ravi) and grandmother's son (Ravi). Thus, she is Ravi's cousin."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Which of the following is NOT a valid continuation of the series: S1D2E3F4G5H6I7J8K9L0M1N2O3P4Q5R6S7T8U9V0W1X2Y3Z4?",
+        "choices": [
+            "A) A) A5B6C7D8",
+            "B) B) E5F6G7H8",
+            "C) C) Z5A6B7C8",
+            "D) D) Z5A6B7C8"
+        ],
+        "answer": "D",
+        "explanation": "The pattern alternates between letters and numbers, with letters progressing alphabetically and numbers incrementing in sequence. Option D is actually correct, so it's the only valid choice. The question asks for the one that is NOT valid, making D the correct answer as it is actually correct."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "If A is the brother of B, B is the sister of C, and C is the daughter of D, but D is the son of E, and E is the daughter of F, who is the mother of A?",
+        "choices": [
+            "A) A) F",
+            "B) B) D",
+            "C) C) E",
+            "D) D) C"
+        ],
+        "answer": "C",
+        "explanation": "E is the daughter of F, making F the mother of E. D is the son of E, so E is D's parent. A is the brother of B, who is the sister of C. C is D's daughter, so D is C's father. Thus, E is the mother of A."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All A are B. Statement II: No C is B. Statement III: Some D are A. Conclusions I: Some D are not C. Conclusion II: All D are C.",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "Statement III (Some D are A) and Statement I (All A are B) imply some D are B. Statement II (No C is B) means D cannot be C. Thus, conclusion I (Some D are not C) is valid, but conclusion II (All D are C) is false. However, the question asks which is NOT true, so D is correct."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi claims, 'My mother\u2019s brother\u2019s only daughter is the sister-in-law of my father\u2019s only son.\u2019 How is Ravi related to his father\u2019s only son?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Brother",
+            "D) D) Uncle"
+        ],
+        "answer": "C",
+        "explanation": "Ravi's mother's brother is his maternal uncle. His only daughter is Ravi's aunt. The aunt is the sister-in-law of Ravi's father's only son, meaning the son is Ravi's uncle. Thus, Ravi is the brother of his father's only son."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All A are B\nStatement II: Some B are C\nStatement III: All C are D\nConclusion I: Some A are D\nConclusion II: All B are D",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "A",
+        "explanation": "Statement III (All C are D) combined with II (Some B are C) ensures some B are D. However, conclusion I (Some A are D) requires a link between A and C, which is not directly established. Thus, only II follows."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 10 seats, 5 men (A, B, C, D, E) and 5 women (M, N, O, P, Q) are seated alternately. A is seated two seats to the left of B, and C is directly opposite D. M is seated three seats to the right of N, and O is seated directly opposite P. If E is seated two seats to the right of Q, and the person directly opposite A is Q, who is seated two seats to the left of the person opposite E?",
+        "choices": [
+            "A) M",
+            "B) N",
+            "C) O",
+            "D) P"
+        ],
+        "answer": "D",
+        "explanation": "The arrangement places A opposite Q, with E two seats right of Q. Since E is opposite Q, the person opposite E is A. Two seats left of A is P, who is directly opposite O. Thus, D is correct."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 8 people, A, B, C, D, E, F, G, and H, each seated at equal intervals. A is directly opposite C. B is seated two seats to the left of D, and E is seated three seats to the right of F. G is seated immediately clockwise of H. If the person opposite E is F, and the person immediately clockwise of A is B, who is seated two seats to the right of the person opposite D?",
+        "choices": [
+            "A) A) E",
+            "B) B) G",
+            "C) C) H",
+            "D) D) F"
+        ],
+        "answer": "B",
+        "explanation": "Arrangement: A-B-D-F-E-G-H-C. Opposite D is G. Two seats right of G is H. B is correct."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All S are P. Statement II: No P is M. Statement III: Some M are N. Conclusions I: No S is N. Conclusion II: Some N are P.",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "A",
+        "explanation": "Statement I and II establish S and P are disjoint. Statement III links M to N, but no overlap between S and N is guaranteed. Conclusion II is impossible as P and N are disjoint."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All A are B\nStatement II: Some B are C\nStatement III: No C is D\nConclusion I: Some A are not D\nConclusion II: Some B are not D",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "C",
+        "explanation": "Statement II links B to C, and III negates C-D. Thus, B and C overlap with D's negation, making II valid. A's relation to D is indirect but confirmed via B-C-D chain, validating I."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'My father\u2019s only son, who is not me, is the brother of my mother\u2019s only daughter.' How is Ravi related to his mother\u2019s only daughter?",
+        "choices": [
+            "A) A) Brother",
+            "B) B) Cousin",
+            "C) C) Uncle",
+            "D) D) Nephew"
+        ],
+        "answer": "C",
+        "explanation": "Ravi\u2019s father\u2019s only son (not Ravi) is Ravi\u2019s brother. His mother\u2019s only daughter is Ravi\u2019s sister. The brother of Ravi\u2019s sister is Ravi\u2019s uncle. Thus, Ravi is the nephew of his mother\u2019s only daughter."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "If Ravi says, 'She is the daughter of the only son of my father\u2019s only sister,' how is the woman related to Ravi?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Niece",
+            "C) C) Sister",
+            "D) D) Aunt"
+        ],
+        "answer": "D",
+        "explanation": "Ravi's father's only sister is Ravi's aunt. The only son of this aunt is Ravi's uncle. The daughter of Ravi's uncle is Ravi's cousin. However, if the aunt has no other children, the daughter is Ravi's cousin. But if the aunt is Ravi's mother, the daughter is Ravi's sister. The correct answer is Aunt, as the aunt's daughter is Ravi's cousin, not sister, unless the aunt is Ravi's mother, which is not implied."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother\u2019s only sibling\u2019s only child.' How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Cousin",
+            "C) C) Aunt",
+            "D) D) Niece"
+        ],
+        "answer": "A",
+        "explanation": "Ravi's mother's only sibling is his aunt. The aunt's only child is Ravi's cousin. The daughter of the cousin is Ravi's cousin's daughter, making her Ravi's cousin's daughter. However, the correct relationship is that the woman is Ravi's sister, as the aunt's only child is Ravi's cousin, and the daughter of the cousin is Ravi's cousin's daughter, which is Ravi's cousin's daughter, not sister."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 12 people, each seated at equal intervals, A is directly opposite B. C is seated two seats to the left of D, and E is seated three seats to the right of C. F is seated between E and A, and G is seated between F and B. H is seated directly opposite G. I is seated three seats to the left of H, and J is seated two seats to the right of I. If K is seated between J and A, who is seated directly opposite K?",
+        "choices": [
+            "A) B",
+            "B) C",
+            "C) D",
+            "D) E"
+        ],
+        "answer": "D",
+        "explanation": "The circular arrangement places K between J and A. Using the given positions, K is opposite E. Only D is factually correct based on the logical deductions of seat positions around the circle."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All A are B\nStatement II: Some B are C\nStatement III: All C are D\nConclusion I: Some D are A\nConclusion II: Some B are not D",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "Conclusion I fails as D is a superset of C, not linked to A. Conclusion II is invalid since B overlaps C and C \u2286 D, making B \u2286 D. Neither conclusion is valid."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Which of the following is NOT a valid continuation of the series: K4M, L5N, M6O, N7P, _____?",
+        "choices": [
+            "A) A) O8Q",
+            "B) B) P9R",
+            "C) C) N7P",
+            "D) D) Q10S"
+        ],
+        "answer": "C",
+        "explanation": "The series alternates between increasing letters and numbers. First letters: K\u2192L\u2192M\u2192N\u2192O (A). Second letters: M\u2192N\u2192O\u2192P\u2192Q (B). Numbers: 4\u21925\u21926\u21927\u21928 (A). C is repeated, so it's incorrect."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Family tree logic",
+        "question": "If A is the brother of B, B is the sister of C, C is the daughter of D, and D is the son of E, how is E related to A? (Note: Assume all are biological relatives and no step-relations or adopted relationships.)",
+        "choices": [
+            "A) A) Uncle",
+            "B) B) Cousin",
+            "C) C) Father",
+            "D) D) Grandfather"
+        ],
+        "answer": "C",
+        "explanation": "E is the father of D, and D is the brother of C. Since C is the daughter of D, E is also the father of C. A is the brother of B, who is the sister of C. Thus, E is the father of A."
+    }
+]

@@ -1,73 +1,82 @@
 [
     {
         "answer": "D",
-        "reasoning": "Ravi's mother's only son is Ravi himself. The woman is his sister since she is the daughter of Ravi's mother's son (Ravi), making her Ravi's niece."
+        "reasoning": "None of the conclusions logically follow from the premises. Conclusion I assumes an inverse relationship not supported by 'All A are B' and 'Some B are C'. Conclusion II incorrectly generalizes 'Some B are C' to 'All B are D', which isn't justified by the given statements."
     },
     {
         "answer": "D",
-        "reasoning": "The sequence follows an alphabetical pattern where letters progress in order, skipping some letters. The correct continuation should follow the same progression. Option D repeats 'Z5A6B7C8', which doesn't align with the original sequence's logical flow."
+        "reasoning": "By mapping positions around the circle, we find that starting from E's position, moving two seats right leads to H, whose opposite is G. Two seats left of G is D."
     },
     {
         "answer": "A",
-        "reasoning": "F is the grandmother of A since she is the parent of E, who is the father of D, and D is the father of C, who is the sister of B, and B is the brother of A."
+        "reasoning": "From 'All A are B' and 'Some B are C', we can't directly infer anything about A and D. However, since 'No C is D', combining it with 'Some B are C' implies some B are not D. Since all A are B, those same A's would also be non-D, making Conclusion I valid. Conclusion II claims all B are not D, which isn't necessarily true because some B could overlap with D if they're not in the C group."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern alternates between letters in the alphabet (A\u2192B\u2192C\u2192D\u2192E) and numbers increasing by 3 (3, 6, 9, 12, 15). The next letter after E is F, and the number increases to 18. The last letter in the sequence is R; the next should be U (since S would break the alternating pattern). Thus, 'F18U' fits."
+    },
+    {
+        "answer": "D",
+        "reasoning": "By placing A at position 1, D is opposite at 5. G is three seats right of A (position 4). F is between G (4) and H, so F=6, H=7. J is two left of F (J=4), but that conflicts with G's placement. Adjusting positions shows J must be at 2, making I at 3. B is two left of E; if B=6, then E=2 (conflict). Correct arrangement places B at 7, E at 1. The person opposite B (opposite of 7 is 3) is I."
     },
     {
         "answer": "A",
-        "reasoning": "From 'All A are B' and 'No C is B', we can infer that no C is A. Since some D are A, those D cannot be C. Thus, conclusion I holds. However, there's no logical link between D and C in conclusion II."
+        "reasoning": "From 'All A are B' and 'Some B are C', we can't directly infer anything about A and D. However, since 'No C is D', combining it with 'Some B are C' implies some B are not D. Since all A are B, those same A's would also be non-D, making Conclusion I valid. Conclusion II claims all B are not D, which isn't necessarily true because some B could overlap with D if they're not in the C group."
     },
     {
         "answer": "B",
-        "reasoning": "Ravi's mother's brother's only daughter is Ravi's aunt. This aunt is the sister-in-law of Ravi's father's only son, meaning the son is Ravi's cousin. Thus, Ravi is the nephew of his father's only son."
+        "reasoning": "The pattern alternates between increasing letters by one (T\u2192U\u2192V\u2192W\u2192X\u2192Y) and incrementing numbers (3\u21924\u21925\u21926\u21927\u21928), while the third character cycles through Z,B,C,D,E,F... The inconsistency lies in option B's number (9 instead of 8)."
     },
     {
-        "answer": "A",
-        "reasoning": "From 'All A are B' and 'Some B are C', we can't conclude 'Some A are D' directly because there's no link between A and C. However, combining 'Some B are C' and 'All C are D' gives 'Some B are D'. Since all A are B, it implies some A must also be D through transitive relationships."
+        "answer": "D",
+        "reasoning": "None of the conclusions logically follow from the premises. Conclusion I assumes an inverse relationship not supported by 'All A are B' and 'Some B are C'. Conclusion II incorrectly generalizes 'Some B are C' to 'All B are D', which isn't justified by the given statements."
+    },
+    {
+        "answer": "D",
+        "reasoning": "After rotating so A takes D's original spot, the new positions shift everyone clockwise by four places. Originally, A was opposite B; after rotation, D becomes adjacent to A. Since E is three seats right of F, and G is left of H, the person opposite A in the new arrangement is D."
     },
     {
         "answer": "C",
-        "reasoning": "The person opposite E must be determined by analyzing seat positions based on given clues. Since E is two seats to the right of Q, and Q is opposite A, we find that the person opposite E is C."
+        "reasoning": "The pattern alternates between increasing letters (A\u2192C\u2192E\u2192G\u2192I\u2192K\u2192...) and odd numbers (3,5,7,9,...). The third element in each pair should follow the sequence. Option C has 'J' which skips 'I', breaking the alphabetical order."
     },
     {
         "answer": "D",
-        "reasoning": "Given that G is immediately clockwise of H, and B is two seats left of D, placing D opposite to someone leads us to find that the person opposite D must be F. Since E's opposite is F, then F is opposite E, making D's opposite F."
+        "reasoning": "Given that H is opposite E, and G is two seats right of H, then G is two seats right of H, making E opposite G. Since E is three seats right of C, C must be three seats left of E. With A opposite F, placing others accordingly shows D is opposite the person two seats left of G."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ravi's mother's only daughter-in-law is his wife. The woman is her daughter, making her Ravi's sister-in-law. However, since she isn't Ravi's sister, she must be his niece."
     },
     {
         "answer": "D",
-        "reasoning": "Conclusion I ('No S is N') cannot be derived because there's no direct link between S and N in the premises. Similarly, Conclusion II ('Some N are P') contradicts Statement II ('No P is M'), making it invalid. Neither conclusion logically follows."
-    },
-    {
-        "answer": "C",
-        "reasoning": "From 'All A are B' and 'Some B are C', we can't directly infer anything about A and C. However, since 'No C is D', combining it with 'All A are B' implies some A may overlap with C, leading to 'Some A are not D'. Also, 'Some B are C' and 'No C is D' imply 'Some B are not D'. Thus, both conclusions hold."
+        "reasoning": "None of the conclusions logically follow from the premises. Conclusion I assumes an overlap between A and C that isn't guaranteed by 'All A are B' and 'Some B are C'. Conclusion II incorrectly infers 'not D' for all A based on 'No C is D', which doesn't directly relate to A's relationship with D."
     },
     {
         "answer": "D",
-        "reasoning": "Ravi's father has only one son (Ravi himself), so the statement refers to Ravi's brother. The mother's only daughter must be Ravi's sister. Thus, Ravi is the nephew of his mother's only daughter."
+        "reasoning": "Statement III claims all birds are reptiles, which contradicts biological facts but must be taken as given. From the premises, no direct link exists between reptiles and mammals. Conclusion I assumes some reptiles are mammals, which isn't supported by any premise. Similarly, Conclusion II suggests some mammals are birds, which also lacks logical support based on the provided statements."
     },
     {
         "answer": "A",
-        "reasoning": "Ravi's father's only sister is his aunt. The only son of that aunt would be Ravi's uncle. The daughter of Ravi's uncle is his cousin."
+        "reasoning": "Conclusion I follows because combining 'All A are B' and 'No C is D' allows inferring some A are not D via syllogistic logic. However, Conclusion II does not logically follow since 'Some B are C' and 'No C is D' do not necessarily imply all B are not D."
+    },
+    {
+        "answer": "B",
+        "reasoning": "E is the parent of D, who is the mother of C. Since A's father is not D, E must be the uncle of A through their shared mother."
     },
     {
         "answer": "D",
-        "reasoning": "Ravi's mother's only sibling is his aunt. That sibling's only child is Ravi's cousin. However, since the woman is described as the daughter of that child, she would be Ravi's niece."
+        "reasoning": "The pattern alternates between increasing letters by one position in the alphabet and adding an odd number sequence. The next term should follow 'U9W' with 'V11X', but 'D) V11Y' has Y instead of X, breaking the consistent alphabetical progression."
+    },
+    {
+        "answer": "B",
+        "reasoning": "The pattern alternates between descending letters and decreasing odd numbers. The first three letters in each term decrease by two (ZYX \u2192 WVU \u2192 TST \u2192 RQP), while the number decreases by 2 each time (7\u21925\u21923\u21921). The next should be 'NOP' with 2 (C), but B's 'ONO_0' breaks the consistent decremental pattern."
     },
     {
         "answer": "D",
-        "reasoning": "By mapping positions around the circle, we find that K's position is determined by the sequence leading up to it. Since K is between J and A, and considering all relative placements, D ends up directly opposite K."
+        "reasoning": "By mapping positions based on given clues, we find that E's direct opposite is D."
     },
     {
-        "answer": "D",
-        "reasoning": "None of the conclusions logically follow from the premises. Conclusion I assumes an inverse relationship between A and D that isn't supported by the given statements. Conclusion II incorrectly asserts'some B are not D' based on the provided information which states all C are D but doesn't address B's relation to D directly."
-    },
-    [
-        [
-            "{  \n  \"answer\": \"C\",  \n  \"reasoning\": \"The pattern alternates between increasing letters by one and incrementing numbers by one. The last term in the sequence is N7P; thus, the next term should follow the same pattern, making C the invalid continuation.\"  \n}"
-        ],
-        40,
-        1.1262023448944092
-    ],
-    {
-        "answer": "D",
-        "reasoning": "E is the parent of D, who is the father of C, making E the grandfather of A through D's lineage."
+        "answer": "B",
+        "reasoning": "Only conclusions II and III logically follow. Conclusion II follows because no C is D and some B are C implies some B are not D. Conclusion I does not necessarily hold since all A are B but there's no direct link to C."
     }
 ]
